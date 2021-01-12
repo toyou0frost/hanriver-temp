@@ -1,0 +1,23 @@
+.hanriver{
+    background-image: url("./hanriver2.jfif");
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    background-position: 80% 20%;
+}
+
+.hanriver-info{
+    position: relative;
+    float: left;
+    background-color: #FFFFFF88;
+    width: 100%;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+
+.hanrivergraph{
+    position: relative;
+    float: left;
+    height: 50vh;
+    width: 110vh;
+}
