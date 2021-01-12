@@ -1,5 +1,5 @@
 const initialState = {
-    status: 'SUCCESS',
+    status: '',
     data: {
         temp: '',
         time: ''
@@ -8,7 +8,7 @@ const initialState = {
 
 const reducer = (state = initialState, action) => {
     switch(action.type){
-        case 'REQUST_PENDING':
+        case 'REQUEST_PENDING':
             return{
                 ...state,
                 status: 'PENDING'
@@ -18,7 +18,7 @@ const reducer = (state = initialState, action) => {
                 status: 'SUCCESS',
                 data: action.payload
             }
-        case 'REQUSET_FAILURE':
+        case 'REQUEST_FAILURE':
             return{
                 ...state,
                 status: 'REEOR'

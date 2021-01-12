@@ -14,10 +14,10 @@ const HanRver = () => {
         dispatch(getHanRiver());
     }, [dispatch]);
 
-    if(requestStatus === 'REQUST_PENDING'){
+    if(requestStatus === ''){
         return(
             <h1>
-                로딩중....
+                수온 재는중....
             </h1>
         )
     }
